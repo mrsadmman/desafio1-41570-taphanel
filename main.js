@@ -1,21 +1,21 @@
 let aviso = alert("Usa Mayusculas y si te cansas escribi ESC");
-let entrada =  prompt("Cuales son las 5 mejores ciudades segun TIME OUT");
+let entrada =  prompt("Cuales son las 5 mejores ciudades segun TIME OUT").toLowerCase();
 
 while (entrada != 'ESC') {
     switch (entrada) {
-        case "EDIMBURGO":
+        case "edimburgo":
             alert("Puesto Nº1");
             break;
-        case "CHICAGO":
+        case "chicago":
             alert("Puesto Nº2");
             break;
-        case "MEDELLIN":
+        case "medellin":
             alert("Puesto Nº3");
             break;
-        case "GLASGOW":
+        case "glasgow":
             alert("Puesto Nº4");
             break;
-        case "AMSTERDAM":
+        case "amsterdam":
             alert("Puesto Nº5");
             break;
         default:
